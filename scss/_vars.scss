@@ -4,8 +4,6 @@ $phablet: phablet;
 $phabletOnly: phabletOnly;
 $tablet: tablet;
 $tabletOnly: tabletOnly;
-$laptop: laptop;
-$laptopOnly: laptopOnly;
 $desktop: desktop;
 $desktopOnly: desktopOnly;
 $largeDesktop: largeDesktop;
@@ -18,4 +16,12 @@ $bpDesktop: 4;
 $bpLargeDesktop: 5;
 $bpXLargeDesktop: 6;
 
-$container-margin: 7.8%, 7.8%, 5%, 5%, 12.5%, 12.5%;
+$container-margin: 7.8%, 7.8%, 5%, 5%, 12.5%, 12.5%, 12.5%;
+
+$breakpoints: 
+mobile, 
+phablet,
+tablet,
+desktop,
+largeDesktop,
+xLargeDesktop;

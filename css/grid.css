@@ -1,0 +1,1268 @@
+/* X Large desktop */
+/* X Large desktop */
+/* Large desktop */
+/**
+ Create custom property
+ example: custom-property(1, 12, margin-left);
+ Margin left will be equal to size of 1 column
+**/
+.col-1-mobile {
+  width: 25%;
+  flex-basis: 25%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-2-mobile {
+  width: 50%;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-3-mobile {
+  width: 75%;
+  flex-basis: 75%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-4-mobile {
+  width: 100%;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-1-phablet {
+  width: 16.6666666667%;
+  flex-basis: 16.6666666667%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-2-phablet {
+  width: 33.3333333333%;
+  flex-basis: 33.3333333333%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-3-phablet {
+  width: 50%;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-4-phablet {
+  width: 66.6666666667%;
+  flex-basis: 66.6666666667%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-5-phablet {
+  width: 83.3333333333%;
+  flex-basis: 83.3333333333%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-6-phablet {
+  width: 100%;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.col-1-tablet {
+  width: 12.5%;
+  flex-basis: 12.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-2-tablet {
+  width: 25%;
+  flex-basis: 25%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-3-tablet {
+  width: 37.5%;
+  flex-basis: 37.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-4-tablet {
+  width: 50%;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-5-tablet {
+  width: 62.5%;
+  flex-basis: 62.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-6-tablet {
+  width: 75%;
+  flex-basis: 75%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-7-tablet {
+  width: 87.5%;
+  flex-basis: 87.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-8-tablet {
+  width: 100%;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-1-desktop {
+  width: 8.3333333333%;
+  flex-basis: 8.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-2-desktop {
+  width: 16.6666666667%;
+  flex-basis: 16.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-3-desktop {
+  width: 25%;
+  flex-basis: 25%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-4-desktop {
+  width: 33.3333333333%;
+  flex-basis: 33.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-5-desktop {
+  width: 41.6666666667%;
+  flex-basis: 41.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-6-desktop {
+  width: 50%;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-7-desktop {
+  width: 58.3333333333%;
+  flex-basis: 58.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-8-desktop {
+  width: 66.6666666667%;
+  flex-basis: 66.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-9-desktop {
+  width: 75%;
+  flex-basis: 75%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-10-desktop {
+  width: 83.3333333333%;
+  flex-basis: 83.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-11-desktop {
+  width: 91.6666666667%;
+  flex-basis: 91.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-12-desktop {
+  width: 100%;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-1-largeDesktop {
+  width: 4.1666666667%;
+  flex-basis: 4.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-2-largeDesktop {
+  width: 8.3333333333%;
+  flex-basis: 8.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-3-largeDesktop {
+  width: 12.5%;
+  flex-basis: 12.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-4-largeDesktop {
+  width: 16.6666666667%;
+  flex-basis: 16.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-5-largeDesktop {
+  width: 20.8333333333%;
+  flex-basis: 20.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-6-largeDesktop {
+  width: 25%;
+  flex-basis: 25%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-7-largeDesktop {
+  width: 29.1666666667%;
+  flex-basis: 29.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-8-largeDesktop {
+  width: 33.3333333333%;
+  flex-basis: 33.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-9-largeDesktop {
+  width: 37.5%;
+  flex-basis: 37.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-10-largeDesktop {
+  width: 41.6666666667%;
+  flex-basis: 41.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-11-largeDesktop {
+  width: 45.8333333333%;
+  flex-basis: 45.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-12-largeDesktop {
+  width: 50%;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-13-largeDesktop {
+  width: 54.1666666667%;
+  flex-basis: 54.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-14-largeDesktop {
+  width: 58.3333333333%;
+  flex-basis: 58.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-15-largeDesktop {
+  width: 62.5%;
+  flex-basis: 62.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-16-largeDesktop {
+  width: 66.6666666667%;
+  flex-basis: 66.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-17-largeDesktop {
+  width: 70.8333333333%;
+  flex-basis: 70.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-18-largeDesktop {
+  width: 75%;
+  flex-basis: 75%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-19-largeDesktop {
+  width: 79.1666666667%;
+  flex-basis: 79.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-20-largeDesktop {
+  width: 83.3333333333%;
+  flex-basis: 83.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-21-largeDesktop {
+  width: 87.5%;
+  flex-basis: 87.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-22-largeDesktop {
+  width: 91.6666666667%;
+  flex-basis: 91.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-23-largeDesktop {
+  width: 95.8333333333%;
+  flex-basis: 95.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-24-largeDesktop {
+  width: 100%;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-1-xLargeDesktop {
+  width: 4.1666666667%;
+  flex-basis: 4.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-2-xLargeDesktop {
+  width: 8.3333333333%;
+  flex-basis: 8.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-3-xLargeDesktop {
+  width: 12.5%;
+  flex-basis: 12.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-4-xLargeDesktop {
+  width: 16.6666666667%;
+  flex-basis: 16.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-5-xLargeDesktop {
+  width: 20.8333333333%;
+  flex-basis: 20.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-6-xLargeDesktop {
+  width: 25%;
+  flex-basis: 25%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-7-xLargeDesktop {
+  width: 29.1666666667%;
+  flex-basis: 29.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-8-xLargeDesktop {
+  width: 33.3333333333%;
+  flex-basis: 33.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-9-xLargeDesktop {
+  width: 37.5%;
+  flex-basis: 37.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-10-xLargeDesktop {
+  width: 41.6666666667%;
+  flex-basis: 41.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-11-xLargeDesktop {
+  width: 45.8333333333%;
+  flex-basis: 45.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-12-xLargeDesktop {
+  width: 50%;
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-13-xLargeDesktop {
+  width: 54.1666666667%;
+  flex-basis: 54.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-14-xLargeDesktop {
+  width: 58.3333333333%;
+  flex-basis: 58.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-15-xLargeDesktop {
+  width: 62.5%;
+  flex-basis: 62.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-16-xLargeDesktop {
+  width: 66.6666666667%;
+  flex-basis: 66.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-17-xLargeDesktop {
+  width: 70.8333333333%;
+  flex-basis: 70.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-18-xLargeDesktop {
+  width: 75%;
+  flex-basis: 75%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-19-xLargeDesktop {
+  width: 79.1666666667%;
+  flex-basis: 79.1666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-20-xLargeDesktop {
+  width: 83.3333333333%;
+  flex-basis: 83.3333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-21-xLargeDesktop {
+  width: 87.5%;
+  flex-basis: 87.5%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-22-xLargeDesktop {
+  width: 91.6666666667%;
+  flex-basis: 91.6666666667%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-23-xLargeDesktop {
+  width: 95.8333333333%;
+  flex-basis: 95.8333333333%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.col-24-xLargeDesktop {
+  width: 100%;
+  flex-basis: 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+
+.offset-left-1-mobile {
+  margin-left: 25%;
+}
+
+.offset-left-2-mobile {
+  margin-left: 50%;
+}
+
+.offset-left-3-mobile {
+  margin-left: 75%;
+}
+
+.offset-left-1-phablet {
+  margin-left: 16.6666666667%;
+}
+
+.offset-left-2-phablet {
+  margin-left: 33.3333333333%;
+}
+
+.offset-left-3-phablet {
+  margin-left: 50%;
+}
+
+.offset-left-4-phablet {
+  margin-left: 66.6666666667%;
+}
+
+.offset-left-5-phablet {
+  margin-left: 83.3333333333%;
+}
+
+.offset-left-1-tablet {
+  margin-left: 12.5%;
+}
+
+.offset-left-2-tablet {
+  margin-left: 25%;
+}
+
+.offset-left-3-tablet {
+  margin-left: 37.5%;
+}
+
+.offset-left-4-tablet {
+  margin-left: 50%;
+}
+
+.offset-left-5-tablet {
+  margin-left: 62.5%;
+}
+
+.offset-left-6-tablet {
+  margin-left: 75%;
+}
+
+.offset-left-7-tablet {
+  margin-left: 87.5%;
+}
+
+.offset-left-1-desktop {
+  margin-left: 8.3333333333%;
+}
+
+.offset-left-2-desktop {
+  margin-left: 16.6666666667%;
+}
+
+.offset-left-3-desktop {
+  margin-left: 25%;
+}
+
+.offset-left-4-desktop {
+  margin-left: 33.3333333333%;
+}
+
+.offset-left-5-desktop {
+  margin-left: 41.6666666667%;
+}
+
+.offset-left-6-desktop {
+  margin-left: 50%;
+}
+
+.offset-left-7-desktop {
+  margin-left: 58.3333333333%;
+}
+
+.offset-left-8-desktop {
+  margin-left: 66.6666666667%;
+}
+
+.offset-left-9-desktop {
+  margin-left: 75%;
+}
+
+.offset-left-10-desktop {
+  margin-left: 83.3333333333%;
+}
+
+.offset-left-11-desktop {
+  margin-left: 91.6666666667%;
+}
+
+.offset-left-1-largeDesktop {
+  margin-left: 4.1666666667%;
+}
+
+.offset-left-2-largeDesktop {
+  margin-left: 8.3333333333%;
+}
+
+.offset-left-3-largeDesktop {
+  margin-left: 12.5%;
+}
+
+.offset-left-4-largeDesktop {
+  margin-left: 16.6666666667%;
+}
+
+.offset-left-5-largeDesktop {
+  margin-left: 20.8333333333%;
+}
+
+.offset-left-6-largeDesktop {
+  margin-left: 25%;
+}
+
+.offset-left-7-largeDesktop {
+  margin-left: 29.1666666667%;
+}
+
+.offset-left-8-largeDesktop {
+  margin-left: 33.3333333333%;
+}
+
+.offset-left-9-largeDesktop {
+  margin-left: 37.5%;
+}
+
+.offset-left-10-largeDesktop {
+  margin-left: 41.6666666667%;
+}
+
+.offset-left-11-largeDesktop {
+  margin-left: 45.8333333333%;
+}
+
+.offset-left-12-largeDesktop {
+  margin-left: 50%;
+}
+
+.offset-left-13-largeDesktop {
+  margin-left: 54.1666666667%;
+}
+
+.offset-left-14-largeDesktop {
+  margin-left: 58.3333333333%;
+}
+
+.offset-left-15-largeDesktop {
+  margin-left: 62.5%;
+}
+
+.offset-left-16-largeDesktop {
+  margin-left: 66.6666666667%;
+}
+
+.offset-left-17-largeDesktop {
+  margin-left: 70.8333333333%;
+}
+
+.offset-left-18-largeDesktop {
+  margin-left: 75%;
+}
+
+.offset-left-19-largeDesktop {
+  margin-left: 79.1666666667%;
+}
+
+.offset-left-20-largeDesktop {
+  margin-left: 83.3333333333%;
+}
+
+.offset-left-21-largeDesktop {
+  margin-left: 87.5%;
+}
+
+.offset-left-22-largeDesktop {
+  margin-left: 91.6666666667%;
+}
+
+.offset-left-23-largeDesktop {
+  margin-left: 95.8333333333%;
+}
+
+.offset-left-1-xLargeDesktop {
+  margin-left: 4.1666666667%;
+}
+
+.offset-left-2-xLargeDesktop {
+  margin-left: 8.3333333333%;
+}
+
+.offset-left-3-xLargeDesktop {
+  margin-left: 12.5%;
+}
+
+.offset-left-4-xLargeDesktop {
+  margin-left: 16.6666666667%;
+}
+
+.offset-left-5-xLargeDesktop {
+  margin-left: 20.8333333333%;
+}
+
+.offset-left-6-xLargeDesktop {
+  margin-left: 25%;
+}
+
+.offset-left-7-xLargeDesktop {
+  margin-left: 29.1666666667%;
+}
+
+.offset-left-8-xLargeDesktop {
+  margin-left: 33.3333333333%;
+}
+
+.offset-left-9-xLargeDesktop {
+  margin-left: 37.5%;
+}
+
+.offset-left-10-xLargeDesktop {
+  margin-left: 41.6666666667%;
+}
+
+.offset-left-11-xLargeDesktop {
+  margin-left: 45.8333333333%;
+}
+
+.offset-left-12-xLargeDesktop {
+  margin-left: 50%;
+}
+
+.offset-left-13-xLargeDesktop {
+  margin-left: 54.1666666667%;
+}
+
+.offset-left-14-xLargeDesktop {
+  margin-left: 58.3333333333%;
+}
+
+.offset-left-15-xLargeDesktop {
+  margin-left: 62.5%;
+}
+
+.offset-left-16-xLargeDesktop {
+  margin-left: 66.6666666667%;
+}
+
+.offset-left-17-xLargeDesktop {
+  margin-left: 70.8333333333%;
+}
+
+.offset-left-18-xLargeDesktop {
+  margin-left: 75%;
+}
+
+.offset-left-19-xLargeDesktop {
+  margin-left: 79.1666666667%;
+}
+
+.offset-left-20-xLargeDesktop {
+  margin-left: 83.3333333333%;
+}
+
+.offset-left-21-xLargeDesktop {
+  margin-left: 87.5%;
+}
+
+.offset-left-22-xLargeDesktop {
+  margin-left: 91.6666666667%;
+}
+
+.offset-left-23-xLargeDesktop {
+  margin-left: 95.8333333333%;
+}
+
+.offset-left-1-mobile {
+  margin-right: 25%;
+}
+
+.offset-left-2-mobile {
+  margin-right: 50%;
+}
+
+.offset-left-3-mobile {
+  margin-right: 75%;
+}
+
+.offset-left-1-phablet {
+  margin-right: 16.6666666667%;
+}
+
+.offset-left-2-phablet {
+  margin-right: 33.3333333333%;
+}
+
+.offset-left-3-phablet {
+  margin-right: 50%;
+}
+
+.offset-left-4-phablet {
+  margin-right: 66.6666666667%;
+}
+
+.offset-left-5-phablet {
+  margin-right: 83.3333333333%;
+}
+
+.offset-left-1-tablet {
+  margin-right: 12.5%;
+}
+
+.offset-left-2-tablet {
+  margin-right: 25%;
+}
+
+.offset-left-3-tablet {
+  margin-right: 37.5%;
+}
+
+.offset-left-4-tablet {
+  margin-right: 50%;
+}
+
+.offset-left-5-tablet {
+  margin-right: 62.5%;
+}
+
+.offset-left-6-tablet {
+  margin-right: 75%;
+}
+
+.offset-left-7-tablet {
+  margin-right: 87.5%;
+}
+
+.offset-left-1-desktop {
+  margin-right: 8.3333333333%;
+}
+
+.offset-left-2-desktop {
+  margin-right: 16.6666666667%;
+}
+
+.offset-left-3-desktop {
+  margin-right: 25%;
+}
+
+.offset-left-4-desktop {
+  margin-right: 33.3333333333%;
+}
+
+.offset-left-5-desktop {
+  margin-right: 41.6666666667%;
+}
+
+.offset-left-6-desktop {
+  margin-right: 50%;
+}
+
+.offset-left-7-desktop {
+  margin-right: 58.3333333333%;
+}
+
+.offset-left-8-desktop {
+  margin-right: 66.6666666667%;
+}
+
+.offset-left-9-desktop {
+  margin-right: 75%;
+}
+
+.offset-left-10-desktop {
+  margin-right: 83.3333333333%;
+}
+
+.offset-left-11-desktop {
+  margin-right: 91.6666666667%;
+}
+
+.offset-left-1-largeDesktop {
+  margin-right: 4.1666666667%;
+}
+
+.offset-left-2-largeDesktop {
+  margin-right: 8.3333333333%;
+}
+
+.offset-left-3-largeDesktop {
+  margin-right: 12.5%;
+}
+
+.offset-left-4-largeDesktop {
+  margin-right: 16.6666666667%;
+}
+
+.offset-left-5-largeDesktop {
+  margin-right: 20.8333333333%;
+}
+
+.offset-left-6-largeDesktop {
+  margin-right: 25%;
+}
+
+.offset-left-7-largeDesktop {
+  margin-right: 29.1666666667%;
+}
+
+.offset-left-8-largeDesktop {
+  margin-right: 33.3333333333%;
+}
+
+.offset-left-9-largeDesktop {
+  margin-right: 37.5%;
+}
+
+.offset-left-10-largeDesktop {
+  margin-right: 41.6666666667%;
+}
+
+.offset-left-11-largeDesktop {
+  margin-right: 45.8333333333%;
+}
+
+.offset-left-12-largeDesktop {
+  margin-right: 50%;
+}
+
+.offset-left-13-largeDesktop {
+  margin-right: 54.1666666667%;
+}
+
+.offset-left-14-largeDesktop {
+  margin-right: 58.3333333333%;
+}
+
+.offset-left-15-largeDesktop {
+  margin-right: 62.5%;
+}
+
+.offset-left-16-largeDesktop {
+  margin-right: 66.6666666667%;
+}
+
+.offset-left-17-largeDesktop {
+  margin-right: 70.8333333333%;
+}
+
+.offset-left-18-largeDesktop {
+  margin-right: 75%;
+}
+
+.offset-left-19-largeDesktop {
+  margin-right: 79.1666666667%;
+}
+
+.offset-left-20-largeDesktop {
+  margin-right: 83.3333333333%;
+}
+
+.offset-left-21-largeDesktop {
+  margin-right: 87.5%;
+}
+
+.offset-left-22-largeDesktop {
+  margin-right: 91.6666666667%;
+}
+
+.offset-left-23-largeDesktop {
+  margin-right: 95.8333333333%;
+}
+
+.offset-left-1-xLargeDesktop {
+  margin-right: 4.1666666667%;
+}
+
+.offset-left-2-xLargeDesktop {
+  margin-right: 8.3333333333%;
+}
+
+.offset-left-3-xLargeDesktop {
+  margin-right: 12.5%;
+}
+
+.offset-left-4-xLargeDesktop {
+  margin-right: 16.6666666667%;
+}
+
+.offset-left-5-xLargeDesktop {
+  margin-right: 20.8333333333%;
+}
+
+.offset-left-6-xLargeDesktop {
+  margin-right: 25%;
+}
+
+.offset-left-7-xLargeDesktop {
+  margin-right: 29.1666666667%;
+}
+
+.offset-left-8-xLargeDesktop {
+  margin-right: 33.3333333333%;
+}
+
+.offset-left-9-xLargeDesktop {
+  margin-right: 37.5%;
+}
+
+.offset-left-10-xLargeDesktop {
+  margin-right: 41.6666666667%;
+}
+
+.offset-left-11-xLargeDesktop {
+  margin-right: 45.8333333333%;
+}
+
+.offset-left-12-xLargeDesktop {
+  margin-right: 50%;
+}
+
+.offset-left-13-xLargeDesktop {
+  margin-right: 54.1666666667%;
+}
+
+.offset-left-14-xLargeDesktop {
+  margin-right: 58.3333333333%;
+}
+
+.offset-left-15-xLargeDesktop {
+  margin-right: 62.5%;
+}
+
+.offset-left-16-xLargeDesktop {
+  margin-right: 66.6666666667%;
+}
+
+.offset-left-17-xLargeDesktop {
+  margin-right: 70.8333333333%;
+}
+
+.offset-left-18-xLargeDesktop {
+  margin-right: 75%;
+}
+
+.offset-left-19-xLargeDesktop {
+  margin-right: 79.1666666667%;
+}
+
+.offset-left-20-xLargeDesktop {
+  margin-right: 83.3333333333%;
+}
+
+.offset-left-21-xLargeDesktop {
+  margin-right: 87.5%;
+}
+
+.offset-left-22-xLargeDesktop {
+  margin-right: 91.6666666667%;
+}
+
+.offset-left-23-xLargeDesktop {
+  margin-right: 95.8333333333%;
+}
+
+.grid {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+@media (max-width: 37.5rem) {
+  .grid {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+}
+@media (min-width: 37.5rem) and (max-width: 50rem) {
+  .grid {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+}
+@media (min-width: 70rem) and (max-width: 120rem) {
+  .grid {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+}
+@media (min-width: 120rem) {
+  .grid {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+@media (min-width: 140rem) {
+  .grid {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+
+.nested-grid {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+}
+@media (max-width: 37.5rem) {
+  .nested-grid {
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+}
+@media (min-width: 37.5rem) and (max-width: 50rem) {
+  .nested-grid {
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+}
+@media (min-width: 70rem) and (max-width: 120rem) {
+  .nested-grid {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+}
+@media (min-width: 120rem) {
+  .nested-grid {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+@media (min-width: 140rem) {
+  .nested-grid {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+}
+@media (max-width: 37.5rem) {
+  .nested-grid {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 37.5rem) {
+  .nested-grid {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 70rem) {
+  .nested-grid {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 120rem) {
+  .nested-grid {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (min-width: 140rem) {
+  .nested-grid {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .container {
+    margin: 0 7.8%;
+  }
+}
+@media (min-width: 37.5rem) and (max-width: 50rem) {
+  .container {
+    margin: 0 7.8%;
+  }
+}
+@media (min-width: 50rem) and (max-width: 70rem) {
+  .container {
+    margin: 0 5%;
+  }
+}
+@media (min-width: 70rem) and (max-width: 120rem) {
+  .container {
+    margin: 0 5%;
+  }
+}
+@media (min-width: 120rem) {
+  .container {
+    margin: 0 12.5%;
+  }
+}
+@media (min-width: 140rem) {
+  .container {
+    margin: 0 12.5%;
+  }
+}
+
+/*# sourceMappingURL=grid.css.map */

@@ -24,7 +24,7 @@
       @content;
     }
   } @else if $point==tabletOnly {
-    @media (min-width: 50rem) and (max-width: 69rem) {
+    @media (min-width: 50rem) and (max-width: 70rem) {
       @content;
     }
   } @else if $point==phablet {

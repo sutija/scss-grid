@@ -1,0 +1,24 @@
+{
+  "name": "scss-grid",
+  "version": "1.0.0",
+  "description": "SCSS Grid",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sutija/scss-grid.git"
+  },
+  "keywords": [
+    "Grid",
+    "scss",
+    "layout"
+  ],
+  "author": "Marko Šutija <markosutija@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sutija/scss-grid/issues"
+  },
+  "homepage": "https://github.com/sutija/scss-grid#readme"
+}

@@ -22,6 +22,13 @@ $container:
         calc(100vw - nth($container-margin, $bpLargeDesktop) * 2), /* Large desktop */
         calc(100vw - nth($container-margin, $bpXLargeDesktop) * 2); /* Large desktop */
 
+$mobileTotalColumns: 4;
+$phabletTotalColumns: 6;
+$tabletTotalColumns: 8;
+$desktopTotalColumns: 12;
+$largeDesktopTotalColumns: 24;
+$xLargeDesktopTotalColumns: 24;
+
 @function getGridGutter($bp) {
   @return nth($grid-gutter, $bp);
 }
@@ -31,13 +38,13 @@ $container:
  example: custom-property(1, 12, margin-left);
  Margin left will be equal to size of 1 column
 **/
-@mixin custom-property($grid-col-size: 6, $number-of-grids: 12, $property: width) {
-  #{$property}: percentage($grid-col-size / $number-of-grids);
+@mixin custom-property($grid-col-size: 6, $number-of-columns: 12, $property: width) {
+  #{$property}: percentage($grid-col-size / $number-of-columns);
 }
 
-@mixin column($grid-col-size: 6, $number-of-grids: 12, $breakpoint: 2) {
-  @include custom-property($grid-col-size, $number-of-grids, width);
-  @include custom-property($grid-col-size, $number-of-grids, flex-basis);
+@mixin column($grid-col-size: 6, $number-of-columns: 12, $breakpoint: 2) {
+  @include custom-property($grid-col-size, $number-of-columns, width);
+  @include custom-property($grid-col-size, $number-of-columns, flex-basis);
   box-sizing: border-box;
   padding: 0 nth($grid-gutter, $breakpoint);
 }
@@ -71,6 +78,7 @@ $container:
   display: flex;
   flex-basis: auto;
   flex-direction: row;
+  flex-wrap: wrap;
   width: auto;
 }
 
