@@ -1,0 +1,104 @@
+$grid-columns:
+        4, /* Mobile */
+        6, /* Phablet */
+        8, /* Tablet */
+        12, /* Desktop */
+        24, /* Large desktop */
+        24; /* X Large desktop */
+
+$grid-gutter:
+        5px, /* Mobile */
+        5px, /* Phablet */
+        10px, /* Tablet */
+        10px, /* Desktop */
+        10px, /* Large desktop */
+        10px; /* X Large desktop */
+
+$container:
+        calc(100vw - nth($container-margin, $bpMobile) * 2), /* Mobile */
+        calc(100vw - nth($container-margin, $bpPhablet) * 2), /* Phablet */
+        calc(100vw - nth($container-margin, $bpTablet) * 2), /* Tablet */
+        calc(100vw - nth($container-margin, $bpDesktop) * 2), /* Desktop */
+        calc(100vw - nth($container-margin, $bpLargeDesktop) * 2), /* Large desktop */
+        calc(100vw - nth($container-margin, $bpXLargeDesktop) * 2); /* Large desktop */
+
+@function getGridGutter($bp) {
+  @return nth($grid-gutter, $bp);
+}
+
+/**
+ Create custom property
+ example: custom-property(1, 12, margin-left);
+ Margin left will be equal to size of 1 column
+**/
+@mixin custom-property($grid-col-size: 6, $number-of-grids: 12, $property: width) {
+  #{$property}: percentage($grid-col-size / $number-of-grids);
+}
+
+@mixin column($grid-col-size: 6, $number-of-grids: 12, $breakpoint: 2) {
+  @include custom-property($grid-col-size, $number-of-grids, width);
+  @include custom-property($grid-col-size, $number-of-grids, flex-basis);
+  box-sizing: border-box;
+  padding: 0 nth($grid-gutter, $breakpoint);
+}
+
+@mixin grid-container {
+  @include breakpoint($mobileOnly) {
+    margin-right: -(getGridGutter($bpMobile));
+    margin-left: -(getGridGutter($bpMobile));
+  }
+
+  @include breakpoint($phabletOnly) {
+    margin-left: -(getGridGutter($bpPhablet));
+    margin-right: -(getGridGutter($bpPhablet));
+  }
+
+  @include breakpoint($desktopOnly) {
+    margin-right: -(getGridGutter($bpDesktop));
+    margin-left: -(getGridGutter($bpDesktop));
+  }
+
+  @include breakpoint($largeDesktop) {
+    margin-left: -(getGridGutter($bpLargeDesktop));
+    margin-right: -(getGridGutter($bpLargeDesktop));
+  }
+
+  @include breakpoint($xLargeDesktop) {
+    margin-left: -(getGridGutter($bpXLargeDesktop));
+    margin-right: -(getGridGutter($bpXLargeDesktop));
+  }
+
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  width: auto;
+}
+
+@mixin nested-grid-container {
+  @include grid-container;
+
+  @include breakpoint($mobileOnly) {
+    margin: 0;
+    padding: 0;
+  }
+
+  @include breakpoint($phablet) {
+    margin: 0;
+    padding: 0;
+  }
+
+  @include breakpoint($desktop) {
+    margin: 0;
+    padding: 0;
+  }
+
+  @include breakpoint($largeDesktop) {
+    margin: 0;
+    padding: 0;
+  }
+
+  @include breakpoint($xLargeDesktop) {
+    margin: 0;
+    padding: 0;
+  }
+}

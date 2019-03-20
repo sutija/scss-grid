@@ -1,0 +1,47 @@
+@mixin breakpoint($point) {
+  @if $point==xLargeDesktop {
+    @media (min-width: 140rem) {
+      @content;
+    }
+  } @else if $point==largeDesktop {
+    @media (min-width: 120rem) {
+      @content;
+    }
+  } @else if $point==largeDesktopOnly {
+    @media (min-width: 120rem) and (max-width: 140rem) {
+      @content;
+    }
+  } @else if $point==desktop {
+    @media (min-width: 70rem) {
+      @content;
+    }
+  } @else if $point==desktopOnly {
+    @media (min-width: 70rem) and (max-width: 120rem) {
+      @content;
+    }
+  } @else if $point==tablet {
+    @media (min-width: 50rem) {
+      @content;
+    }
+  } @else if $point==tabletOnly {
+    @media (min-width: 50rem) and (max-width: 69rem) {
+      @content;
+    }
+  } @else if $point==phablet {
+    @media (min-width: 37.5rem) {
+      @content;
+    }
+  } @else if $point==phabletOnly {
+    @media (min-width: 37.5rem) and (max-width: 50rem) {
+      @content;
+    }
+  } @else if $point==mobileonly {
+    @media (max-width: 37.5rem) {
+      @content;
+    }
+  }
+}
+
+@mixin container($bp) {
+  margin: 0 nth($container-margin, $bp);
+}
